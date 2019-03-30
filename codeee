@@ -1,4 +1,4 @@
-script_version("31.03.2019")
+script_version("331.03.2019")
 
 function main()
 if not isSampfuncsLoaded() or not isSampLoaded() then
@@ -9,7 +9,7 @@ if not isSampfuncsLoaded() or not isSampLoaded() then
   end
   autoupdate("https://raw.githubusercontent.com/Vghjk/code/master/update", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/Vghjk/code/master/update")
   if isSampLoaded() then
-  sampAddChatMessage('/ynick', 0xFFFFFF)
+  sampAddChatMessage('/ynisk', 0xFFFFFF)
   end
   wait(-1)
 end  
