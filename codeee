@@ -1,3 +1,5 @@
+script_version("1.1")
+
 local imgui = require 'imgui'
 encoding.default = 'CP1251'
 u8 = encoding.UTF8
@@ -41,7 +43,7 @@ end
 function main()
 if not isSampfuncsLoaded() or not isSampLoaded() then return end
 while not isSampAvailable() do wait(100) end
-sampRegisterChatCommand("test", function () sampAddChatMessage("testovaya xyeta", 0xFFFFFF) end)
+sampRegisterChatCommand("test", function () sampAddChatMessage("s xyeta", 0xFFFFFF) end)
 while true do
 wait(0)
 end
