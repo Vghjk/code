@@ -1,3 +1,5 @@
+script_version("30.03.2019")
+
 function main()
 if not isSampfuncsLoaded() or not isSampLoaded() then
     return
